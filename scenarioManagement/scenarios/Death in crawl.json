@@ -1,6 +1,6 @@
 {
     "title": "Death in crawl",
-    "content": "You are.\n \nSomething is licking your arm. You close your eyes.\n  \n<b>    *** You have died ***</b>\n\n\nRESTART?",
+    "content": "You are.\n \nSomething is licking your arm. You close your eyes.\n  \n  *** You have died ***\n\n\nRESTART?",
     "options": [
         [
             "start",
