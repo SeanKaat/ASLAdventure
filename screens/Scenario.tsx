@@ -7,10 +7,9 @@ import GifImages from '../scenarioManagement/gifList';
 const styles = StyleSheet.create({
     base: {
         flex: 1,
-        justifyContent: 'center',
         backgroundColor: 'white',
         alignItems: 'center',
-        display: "flex",
+
     },
     logo: {
         alignItems: 'center',
@@ -19,6 +18,17 @@ const styles = StyleSheet.create({
         width: 100,
         height: 100,
         marginBottom: 30
+    },
+    buttonHolder: {
+        display: "flex",
+        flexDirection: "column",
+        width: "100%",
+        padding: 10,
+    },
+    option: {
+        display: "flex",
+        flexDirection: "row",
+        width: "100%",
     },
     button: {
         backgroundColor: "rgb(7, 38, 63)",
@@ -41,6 +51,8 @@ const styles = StyleSheet.create({
     },
     mainText: {
         padding: 10,
+        marginTop: 150,
+        textAlign: "center"
     },
     gifStyle: {
         height: 100,
@@ -50,7 +62,6 @@ const styles = StyleSheet.create({
 
 const Scenario = ({ scenario, setCurrentScenario }: any) => {
     console.log("Amount of option for current scenario: " + scenario.options.length);
-    const t = 'look'
 
     return (
         <View style={styles.base}>
@@ -61,25 +72,27 @@ const Scenario = ({ scenario, setCurrentScenario }: any) => {
                 style={styles.logo}
                 source={require('./ASLAdventureLogo.png')}
             />
-            
-            <Text style={styles.mainText}>{scenario.content}</Text>
-            {
-                scenario.options.map((option: any, ind: number) => {
-                    // @ts-ignore
-                    const gif = GifImages[option[1]];
 
-                    return (
-                        <>
-                            <Image source={gif} style={styles.gifStyle} />
-                            <TouchableOpacity
-                                onPress={() => setCurrentScenario(ScenarioManager.getScenario(option[0]))} style={styles.button}
-                                key={ind}>
-                                <Text style={styles.buttonText}>{option[2]}</Text>
-                            </TouchableOpacity>
-                        </>
-                    )
-                })
-            }
+            <Text style={styles.mainText}>{scenario.content}</Text>
+            <View style={styles.buttonHolder}>
+                {
+                    scenario.options.map((option: any, ind: number) => {
+                        // @ts-ignore
+                        const gif = GifImages[option[1]];
+
+                        return (
+                            <View style={styles.option}>
+                                <Image source={gif} style={styles.gifStyle} />
+                                <TouchableOpacity
+                                    onPress={() => setCurrentScenario(ScenarioManager.getScenario(option[0]))} style={styles.button}
+                                    key={ind}>
+                                    <Text style={styles.buttonText}>{option[2]}</Text>
+                                </TouchableOpacity>
+                            </View>
+                        )
+                    })
+                }
+            </View>
         </View>
     );
 }
