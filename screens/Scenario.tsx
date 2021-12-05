@@ -1,6 +1,8 @@
 import React from 'react';
 import { View, Text, Button, StyleSheet, Image, TouchableOpacity } from 'react-native';
 import { ScenarioManager } from '../scenarioManagement/Scenarios';
+import GifImages from '../scenarioManagement/gifList';
+
 
 const styles = StyleSheet.create({
     base: {
@@ -12,7 +14,7 @@ const styles = StyleSheet.create({
     logo: {
         alignItems: 'center',
         position: 'absolute',
-        top: 60,
+        top: 50,
         width: 100,
         height: 100,
         marginBottom: 30
@@ -35,11 +37,20 @@ const styles = StyleSheet.create({
         // width: 100,
         // height: 100,
         // marginBottom: 30
+    },
+    mainText: {
+        padding: 10,
+    },
+    gifStyle: {
+        height: 100,
+        width: 100,
     }
 });
 
 const Scenario = ({ scenario, setCurrentScenario }: any) => {
     console.log("Amount of option for current scenario: " + scenario.options.length);
+    const t = 'look'
+    const img: any = GifImages[t];
 
     return (
         <View style={styles.base}>
@@ -50,16 +61,19 @@ const Scenario = ({ scenario, setCurrentScenario }: any) => {
                 style={styles.logo}
                 source={require('./ASLAdventureLogo.png')}
             />
-            <Text>{scenario.title}</Text>
-            <Text>{scenario.content}</Text>
+            <Image source={img} style={styles.gifStyle} />
+            <Text style={styles.mainText}>{scenario.content}</Text>
             {
                 scenario.options.map((option: any, ind: number) => {
                     return (
-                        <TouchableOpacity
-                        onPress={() => setCurrentScenario(ScenarioManager.getScenario(option[0]))} style={styles.button}
-                        key={ind}>
-                            <Text style={styles.buttonText}>{option[2]}</Text>
-                        </TouchableOpacity>
+                        <>
+                            
+                            <TouchableOpacity
+                                onPress={() => setCurrentScenario(ScenarioManager.getScenario(option[0]))} style={styles.button}
+                                key={ind}>
+                                <Text style={styles.buttonText}>{option[2]}</Text>
+                            </TouchableOpacity>
+                        </>
                     )
                 })
             }
