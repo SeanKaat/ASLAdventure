@@ -1,0 +1,21 @@
+{
+    "title": "Large Pit",
+    "content": "<b>Large Pit</b>\nThis is a large, elongated pit, with a high roof. Ragged fringes of white mineral hang from the ceiling, and you can hear water rushing in the distance. The ground is worn into polished flowing curves. A twisty crawl runs left, a tunnel goes right, and a wide tunnel ascends.\n\nYou shake your head, side to side, trying to push off the weight of weariness for another few minutes. Keep moving.",
+    "options": [
+        [
+            "Tiny Cavern 1",
+            "left",
+            "Go left"
+        ],
+        [
+            "Large Dome",
+            "right",
+            "Go right"
+        ],
+        [
+            "Tiny Cavern 2",
+            "up",
+            "Go up"
+        ]
+    ]
+}

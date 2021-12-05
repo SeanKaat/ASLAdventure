@@ -1,0 +1,26 @@
+{
+    "title": "Narrow Ledge Observation 2",
+    "content": "Narrow Ledge\nThis ledge is barely two feet wide at most. You try not to feel like it's angled slightly outward. The pit stretches above and below you; but you can see no way to climb from here, either way.\n \nA rope hangs across the pit, a gentle arc well above your head.",
+    "options": [
+        [
+            "Climb up right",
+            "climb",
+            "Climb up"
+        ],
+        [
+            "Climb down",
+            "down",
+            "Climb down"
+        ],
+        [
+            "Jump",
+            "jump",
+            "Jump"
+        ],
+        [
+            "Shoot the rope 1",
+            "shoot",
+            "Shoot the rope"
+        ]
+    ]
+}

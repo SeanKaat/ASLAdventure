@@ -1,0 +1,26 @@
+{
+    "title": "Bats 1",
+    "content": "The bats cluster on the ground near the twisting crawl to the right. They seem to be licking at the stone.",
+    "options": [
+        [
+            "Large Dome",
+            "ahead",
+            "Go ahead"
+        ],
+        [
+            "Small Cave 2",
+            "left",
+            "Go left"
+        ],
+        [
+            "Elongated Room",
+            "right",
+            "Go right"
+        ],
+        [
+            "Bats 1",
+            "examine",
+            "Examine bats"
+        ]
+    ]
+}

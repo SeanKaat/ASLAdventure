@@ -1,0 +1,8 @@
+{
+    "title": "This is the title of the scenario",
+    "content": "This is the content of the scenario",
+    "options": [
+        ["nextScenario", "actionName", "This is the text of the first <b>option</b>"],
+        ["otherNextScenario", "otherActionName", "This is the text of the second <b>option</b>"]
+    ]
+}

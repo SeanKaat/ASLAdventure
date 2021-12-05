@@ -1,0 +1,31 @@
+{
+    "title": "Look at Prey",
+    "content": "Something shifts in the darkness ahead, a great silent bulk. Your prey.\n\nYou pull down the lever, winching the string back until it locks.",
+    "options": [
+        [
+            "Shoot",
+            "shoot",
+            "Shoot the prey"
+        ],
+        [
+            "Look around again",
+            "look",
+            "Look around again"
+        ],
+        [
+            "Death by beast",
+            "forward",
+            "Walk forward"
+        ],
+        [
+            "Left",
+            "left",
+            "Go left"
+        ],
+        [
+            "Right before shoot",
+            "right",
+            "Go right"
+        ]
+    ]
+}

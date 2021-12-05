@@ -1,0 +1,16 @@
+{
+    "title": "Take rags",
+    "content": "The old fiber tears without too much strain. You manage to rip loose some strips from the loose hems, lying clear of the corpse. What remains behind, stained with old decay, you'd just as soon not touch.\n \nA bat flutters down from overhead. And another. You wave your arms, but they're keeping their distance.\n\n\nUse the cloth strips?",
+    "options": [
+        [
+            "Bandage",
+            "yes",
+            "Yes, bandage your arm with them"
+        ],
+        [
+            "Bottom of pit arrival",
+            "no",
+            "No, give them back to the deceased"
+        ]
+    ]
+}

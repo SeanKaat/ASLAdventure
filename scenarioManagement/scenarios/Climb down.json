@@ -1,0 +1,21 @@
+{
+    "title": "Climb down",
+    "content": "You dangle your legs over the edge again, and turn and hang... and look down. And change your mind. The spires below are like fangs in a stone maw. You scramble back to the ledge to think it over.",
+    "options": [
+        [
+            "Climb up right",
+            "climb",
+            "Climb up"
+        ],
+        [
+            "Jump",
+            "jump",
+            "Jump"
+        ],
+        [
+            "Narrow Ledge Observation 2",
+            "look",
+            "Look around"
+        ]
+    ]
+}

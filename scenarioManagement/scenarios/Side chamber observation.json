@@ -1,0 +1,26 @@
+{
+    "title": "Side chamber observation",
+    "content": "A tight crawl winds ahead, half-choked with pale folds of limestone. Little enough headroom, but not impossible. It's the movement in the shadows that sends ice over your skin... The creature is waiting.",
+    "options": [
+        [
+            "Shoot",
+            "shoot",
+            "Shoot the prey"
+        ],
+        [
+            "Death by beast",
+            "forward",
+            "Walk forward"
+        ],
+        [
+            "Left",
+            "left",
+            "Go left"
+        ],
+        [
+            "Right before shoot",
+            "right",
+            "Go right"
+        ]
+    ]
+}

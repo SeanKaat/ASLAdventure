@@ -1,0 +1,11 @@
+{
+    "title": "Safe crawl backward 2",
+    "content": "You try to wiggle backwards, but the position is impossible. It would take you hours to retreat even a few yards.\n\n<b>Tight Crawl</b>\nThe crawl is no different here than anywhere. You have just enough room to raise your head, and there's nothing to see ahead but more stone to crawl through.",
+    "options": [
+        [
+            "Safe crawl 3",
+            "forward",
+            "Go forward"
+        ]
+    ]
+}

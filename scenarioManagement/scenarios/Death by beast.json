@@ -1,0 +1,16 @@
+{
+    "title": "Death by beast",
+    "content": "You creep up the passage, as stealthily as you can. It must be retreating ahead, for you see only empty stone, though the smell grows harsher...\n \nAnd the eyes of the beast are on you, and claws come out of the night.\n \n \n <b>  *** You have died ***</b>\n \n \nRESTART?",
+    "options": [
+        [
+            "start",
+            "yes",
+            "Yes"
+        ],
+        [
+            "Death by beast",
+            "no",
+            "No"
+        ]
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "title": "Climb up left",
+    "content": "I don't think much is to be achieved by that.\n \nA bat flutters down from overhead. And another. You wave your arms, but they're keeping their distance.",
+    "options": [
+        [
+            "Bottom of pit not bandaged",
+            "look",
+            "Look around"
+        ],
+        [
+            "Tight Crawl 1",
+            "down",
+            "Go down into the corner"
+        ]
+    ]
+}

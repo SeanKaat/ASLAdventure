@@ -1,0 +1,11 @@
+{
+    "title": "Shoot the rope 2",
+    "content": "You are out of arrow.",
+    "options": [
+        [
+            "Death by leap",
+            "jump",
+            "Jump to reach the rope"
+        ]
+    ]
+}

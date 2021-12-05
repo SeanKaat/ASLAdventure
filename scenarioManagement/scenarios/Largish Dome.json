@@ -1,0 +1,21 @@
+{
+    "title": "Largish Dome",
+    "content": "<b>Largish Dome</b>\nThis is a largish dome. Needles of yellow calcite spray from the rocks nearby. A steep crawl leads down, a twisting tunnel leads forward, and a low tunnel goes left.\n\nA scrap of shadow flickers across a wall.",
+    "options": [
+        [
+            "Small Cave 1",
+            "down",
+            "Go down"
+        ],
+        [
+            "Largish Cave",
+            "forward",
+            "Go forward"
+        ],
+        [
+            "Small Cave 2",
+            "left",
+            "Go left"
+        ]
+    ]
+}

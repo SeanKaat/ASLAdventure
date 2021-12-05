@@ -1,0 +1,21 @@
+{
+    "title": "Bottom of pit arrival",
+    "content": "<b>Bottom of Pit</b>\nYou roll painfully to hands and knees. <i>Ah</i> -- your arm nearly gives way -- you realize you somehow tore hell out of it on the way down, or landing. It's bleeding freely.\n \nThis is the bottom of a wide pit. The walls are entirely unclimbable, of course. The floor is rippled and uneven, rising to sharp blades of stone near the edge. Mud and pebbles are strewn everywhere, but there's no standing water, so -- yes -- a narrow crawl leads down in the far corner.\n \nA twisted shape lies nearby.",
+    "options": [
+        [
+            "Climb up left",
+            "climb",
+            "Climb up"
+        ],
+        [
+            "Twisted Shape",
+            "examine",
+            "Examine the twisted shape"
+        ],
+        [
+            "Tight Crawl 1",
+            "down",
+            "Go down into the corner"
+        ]
+    ]
+}

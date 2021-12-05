@@ -1,0 +1,31 @@
+{
+    "title": "Look around again",
+    "content": "You glance around again. The cave narrows ahead, a tight crawl winding around folds of limestone. A low passage descends to your right, and there is a side chamber on the left.",
+    "options": [
+        [
+            "Side chamber observation",
+            "examine",
+            "Examine the side chamber"
+        ],
+        [
+            "Shoot",
+            "shoot",
+            "Shoot the prey"
+        ],
+        [
+            "Death by beast",
+            "forward",
+            "Walk forward"
+        ],
+        [
+            "Left",
+            "left",
+            "Go left"
+        ],
+        [
+            "Right before shoot",
+            "right",
+            "Go right"
+        ]
+    ]
+}

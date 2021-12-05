@@ -1,0 +1,16 @@
+{
+    "title": "Death by outrageous Wumpus",
+    "content": "You begin picking your way back down towards the canyon floor.\n \nThere is a roar, and something huge lurches up the path. The dark eyes of the Wumpus peer out of a chittering swarm. There is understanding somewhere in there, what you have done to it and why -- and rage.\n \nIt lunges at you, heedless now of what the bats might do; it only wants to reach you with its claws.\n \n \n<b>    *** You have died ***</b>\n\t\n\nRESTART?",
+    "options": [
+        [
+            "start",
+            "yes",
+            "Yes"
+        ],
+        [
+            "Death by outrageous Wumpus",
+            "no",
+            "No"
+        ]
+    ]
+}

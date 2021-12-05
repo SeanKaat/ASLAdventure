@@ -1,0 +1,26 @@
+{
+    "title": "Twisted Shape",
+    "content": "It's human.\n \nAnd it's been here a long time. <i>He</i> has, you think... or she, for all you know. There's little left to recall this broken shape to past life. The bones lie crumpled, clad in tatters of chewed black flesh. The clothes have fared somewhat better -- some resistant fiber -- but even they are brittle and rent.\n \nA bat flutters down from overhead. And another. You wave your arms, but they're keeping their distance.",
+    "options": [
+        [
+            "Bottom of pit not bandaged",
+            "look",
+            "Look around"
+        ],
+        [
+            "Tight Crawl 1",
+            "down",
+            "Go down into the corner"
+        ],
+        [
+            "Climb up left",
+            "climb",
+            "Climb up"
+        ],
+        [
+            "Take rags",
+            "steal",
+            "Steal the clothes"
+        ]
+    ]
+}

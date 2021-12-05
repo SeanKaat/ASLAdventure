@@ -1,0 +1,16 @@
+{
+    "title": "Wait 2",
+    "content": "Time passes.\n \nSeveral of the bats are fluttering in the air around you, ignoring the drying pool of blood nearby.",
+    "options": [
+        [
+            "Death by bats",
+            "stay",
+            "Stay and wait some more"
+        ],
+        [
+            "Canyon wall with bats",
+            "forward",
+            "Walk forward to Wumpus"
+        ]
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "title": "Death in crawl",
+    "content": "You are.\n \nSomething is licking your arm. You close your eyes.\n  \n<b>    *** You have died ***</b>\n\n\nRESTART?",
+    "options": [
+        [
+            "start",
+            "yes",
+            "Yes"
+        ],
+        [
+            "Death in crawl",
+            "no",
+            "No"
+        ]
+    ]
+}

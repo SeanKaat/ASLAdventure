@@ -1,0 +1,16 @@
+{
+    "title": "Wumpus shoot prep without bandage",
+    "content": "You take a tentative step towards the creature. And stop. The crossbow hasn't moved a fraction, but you see a claw moving restlessly on the trigger...",
+    "options": [
+        [
+            "Back up without bandage",
+            "where",
+            "Back up to where you were"
+        ],
+        [
+            "Death by crossbow",
+            "continue",
+            "Continue walking"
+        ]
+    ]
+}

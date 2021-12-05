@@ -1,0 +1,21 @@
+{
+    "title": "start",
+    "content": "Nearly -- nearly. The animal stink is rank and close. You raise your crossbow, try to peer beyond dark, wet stone.",
+    "options": [
+        [
+            "Look at Prey",
+            "look",
+            "Look around"
+        ],
+        [
+            "Shoot target",
+            "shoot",
+            "Shoot the crossbow"
+        ],
+        [
+            "Direction before shoot",
+            "go",
+            "Go somewhere"
+        ]
+    ]
+}

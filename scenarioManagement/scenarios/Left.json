@@ -1,0 +1,11 @@
+{
+    "title": "Left",
+    "content": "You advance into the chamber. A bat flutters in your face. You swipe it away... and three more bats replace it. You duck, swearing; swearing again at a sharp nip on your arm. Drew blood, it did.\n \nThere is a rustling all around you. You try to remember what you know about the habits of cave bats --\n \nOh.\n \nYou scramble back, covering your eyes; too late. The swarm is on you, harrying you, small teeth and shrieks like shards of glass. You cannot see. You are running, stumbling ahead of the storm. The Wumpus screams -- <i>too close</i> -- you thrash, flinging something blindly at the new threat, and as you recall what else you know of the hunting of bats, the floor drops away to nothing beneath you --",
+    "options": [
+        [
+            "Bottom of pit arrival",
+            "where",
+            "\"Where is this?\""
+        ]
+    ]
+}

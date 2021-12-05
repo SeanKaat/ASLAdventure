@@ -1,0 +1,11 @@
+{
+    "title": "Crawl backward 2",
+    "content": "You try to wiggle backwards, but the position is impossible. It would take you hours to retreat even a few yards",
+    "options": [
+        [
+            "Tight Crawl 3",
+            "forward",
+            "Go forward"
+        ]
+    ]
+}

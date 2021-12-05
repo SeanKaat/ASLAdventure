@@ -1,0 +1,21 @@
+{
+    "title": "Jump",
+    "content": "The rope curves some fifteen feet above you. Jumping is just a bit optimistic.",
+    "options": [
+        [
+            "Climb up right",
+            "climb",
+            "Climb up"
+        ],
+        [
+            "Climb down",
+            "down",
+            "Climb down"
+        ],
+        [
+            "Narrow Ledge Observation 2",
+            "look",
+            "Look around"
+        ]
+    ]
+}

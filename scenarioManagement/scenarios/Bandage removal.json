@@ -1,0 +1,16 @@
+{
+    "title": "Bandage removal",
+    "content": "A bat suddenly pokes its stained nose up above the pool, casting about.",
+    "options": [
+        [
+            "Wait 1",
+            "stay",
+            "Stay put"
+        ],
+        [
+            "Canyon Wall without bandage",
+            "forward",
+            "Walk forward"
+        ]
+    ]
+}

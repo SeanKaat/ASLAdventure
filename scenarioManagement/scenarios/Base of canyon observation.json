@@ -1,0 +1,16 @@
+{
+    "title": "Base of canyon observation",
+    "content": "Base of Canyon\nYou are in an alcove, a side chamber at the base of a vaulting canyon. The walls spread upward around you. And the distant roof is hung with glimmering stars -- droplet-tipped stalactites in some hidden suffusion of light. A crevice runs along the canyon at your feet. You can cross it and continue on ahead, or re-enter the crawl behind you.\n \nA pool of thick, dark, reeking blood is spilled across the ground. Bats crawl all around it -- rustling, fluttering, feasting.",
+    "options": [
+        [
+            "Bats in canyon",
+            "examine",
+            "Examine bats"
+        ],
+        [
+            "Canyon Wall",
+            "go",
+            "Go in the direction of the blood trail"
+        ]
+    ]
+}

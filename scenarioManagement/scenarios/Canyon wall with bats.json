@@ -1,0 +1,16 @@
+{
+    "title": "Canyon wall with bats",
+    "content": "You heave yourself wearily over the crevice, following the bats.\n \nCanyon Wall\nMassive buttresses of stone rise all around you, climbing the canyon wall, flowing down again in cascades of pale fluorite. A path seems to climb up among them; but you don't think you can get to it right now.\n \nThe Wumpus is crouched before you. Blood trickles from the wound your bolt tore, down its hide, puddling on the floor. It holds your crossbow in its claws; gently cradled; loaded and cocked; steady on your throat.\n \nBats rush overhead in a vast wheeling cloud.\n \nThe Wumpus grunts, and swats at an overbold bat. The tiny shape shrieks and falls broken to the ground; but the Wumpus hisses as well, and shakes blood from its forelimb.\n \nAnd the swarm descends.",
+    "options": [
+        [
+            "Death by bats",
+            "where",
+            "Go back to where you were"
+        ],
+        [
+            "Rising path",
+            "forward",
+            "Go forward"
+        ]
+    ]
+}

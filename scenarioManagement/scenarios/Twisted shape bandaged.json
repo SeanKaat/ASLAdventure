@@ -1,0 +1,16 @@
+{
+    "title": "Twisted shape bandaged",
+    "content": "There's little left to recall this broken shape to past life. The bones lie crumpled, clad in tatters of chewed black flesh and torn rags.",
+    "options": [
+        [
+            "Bottom of pit bandaged",
+            "look",
+            "Look around"
+        ],
+        [
+            "Safe crawl 1",
+            "down",
+            "Go down into the corner"
+        ]
+    ]
+}

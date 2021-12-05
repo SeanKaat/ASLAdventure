@@ -1,0 +1,26 @@
+{
+    "title": "Shoot",
+    "content": "<i>Tunk</i>. And you flinch at the hissing shriek that echoes down the cave walls. The dark shape retreats, scrambling away, as your thudding pulse slows.\nMoments later, barely sensed, the scent of blood. You have wounded the Wumpus.\nA faint rustling echoes deep in the side chamber, and the laughing chitter of bats.",
+    "options": [
+        [
+            "Branching cave observation after shoot",
+            "look",
+            "Look around"
+        ],
+        [
+            "Ahead",
+            "forward",
+            "Go forward"
+        ],
+        [
+            "Left",
+            "left",
+            "Go left"
+        ],
+        [
+            "Right after shoot",
+            "right",
+            "Go right"
+        ]
+    ]
+}

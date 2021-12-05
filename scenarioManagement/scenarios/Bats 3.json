@@ -1,0 +1,26 @@
+{
+    "title": "Bats 3",
+    "content": "There are six or eight bats -- they're hard enough to see, let alone count, fluttering wildly around the roof.\n \nOne bat, then another, settles to the ground near the rough passage to the right. You shift back uneasily, but they are staying well away.",
+    "options": [
+        [
+            "Dull Room",
+            "left",
+            "Go left"
+        ],
+        [
+            "Small Cave 1",
+            "forward",
+            "Go forward"
+        ],
+        [
+            "Base of Canyon",
+            "right",
+            "Go right"
+        ],
+        [
+            "Bats 3",
+            "examine",
+            "Examine the bats again"
+        ]
+    ]
+}

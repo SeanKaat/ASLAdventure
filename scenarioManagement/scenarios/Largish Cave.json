@@ -1,0 +1,21 @@
+{
+    "title": "Largish Cave",
+    "content": "<b>Largish Cave</b>\nYou are in a largish roundish cave. A thin layer of mud lies underfoot. Ropy pillars rise from floor to roof, and a small still pool lies to one side. A crack runs left, a narrow crawl ascends, and a twisty passage descends.",
+    "options": [
+        [
+            "Tiny Cavern 1",
+            "left",
+            "Go left"
+        ],
+        [
+            "Dull Room",
+            "up",
+            "Go up"
+        ],
+        [
+            "Large Pit",
+            "down",
+            "Go down"
+        ]
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "title": "Climb up right",
+    "content": "Ascent is impossible",
+    "options": [
+        [
+            "Jump",
+            "jump",
+            "Jump"
+        ],
+        [
+            "Climb down",
+            "down",
+            "Climb down"
+        ],
+        [
+            "Narrow Ledge Observation 2",
+            "look",
+            "Look around"
+        ]
+    ]
+}

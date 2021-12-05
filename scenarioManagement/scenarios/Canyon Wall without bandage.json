@@ -1,0 +1,21 @@
+{
+    "title": "Canyon Wall without bandage",
+    "content": "You heave yourself wearily over the crevice, and approach the twisted formations that make up the far canyon wall...\n \nAnd you round a pillar, and stop there. Here? Now?\n \nCanyon Wall\nMassive buttresses of stone rise all around you, climbing the canyon wall, flowing down again in cascades of pale fluorite. A path seems to climb up among them; but you don't think you can get to it right now.\n \nThe Wumpus is crouched before you. Blood trickles from the wound your bolt tore, down its hide, puddling on the floor.\n \nIt holds your crossbow in its claws; gently cradled; loaded and cocked; steady on your throat.",
+    "options": [
+        [
+            "Base of canyon observation without bandage",
+            "look",
+            "Look around"
+        ],
+        [
+            "Wumpus shoot prep without bandage",
+            "continue",
+            "Continue walking"
+        ],
+        [
+            "Wumpus shoot prep without bandage",
+            "ask",
+            "Ask Wumpus about its health"
+        ]
+    ]
+}

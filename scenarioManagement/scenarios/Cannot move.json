@@ -1,0 +1,11 @@
+{
+    "title": "Cannot move",
+    "content": "You don't have the energy to move.",
+    "options": [
+        [
+            "Death in crawl",
+            "nap",
+            "Take another nap"
+        ]
+    ]
+}

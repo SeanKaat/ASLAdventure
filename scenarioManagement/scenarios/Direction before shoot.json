@@ -1,0 +1,26 @@
+{
+    "title": "Direction before shoot",
+    "content": "Which way you want to go?",
+    "options": [
+        [
+            "Death by beast",
+            "ahead",
+            "Straight ahead"
+        ],
+        [
+            "Left",
+            "left",
+            "Left"
+        ],
+        [
+            "Right before shoot",
+            "right",
+            "Right"
+        ],
+        [
+            "Branching cave observation before shoot",
+            "look",
+            "Probably look around"
+        ]
+    ]
+}

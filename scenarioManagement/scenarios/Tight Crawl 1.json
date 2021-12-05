@@ -1,0 +1,16 @@
+{
+    "title": "Tight Crawl 1",
+    "content": "You kneel, stiffly, and poke your head into the opening. It's tight, and it looks like it gets tighter ahead. No help for it -- you crawl inside, leaving streaks of blood on the stone as you pass.\n \n<b>Tight Crawl</b>\nYou're on your hands and knees in a throat of stone. The roof dips even lower ahead. If you advance, it'll be squirming forwards on your belly. And squirming backwards will be impossible, you think grimly.\n \nBlood continues to trickle down your fingers.",
+    "options": [
+        [
+            "Crawl backward 1",
+            "go",
+            "Go back"
+        ],
+        [
+            "Tight Crawl 2",
+            "forward",
+            "Go forward"
+        ]
+    ]
+}

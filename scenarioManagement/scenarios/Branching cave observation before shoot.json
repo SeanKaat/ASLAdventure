@@ -1,0 +1,26 @@
+{
+    "title": "Branching cave observation before shoot",
+    "content": "<b>Branching Cave</b>\nYou glance around again. The cave narrows ahead, a tight crawl winding around folds of limestone. A low passage descends to your right, and there is a side chamber on the left.\n\nSomething shifts in the darkness ahead, a great silent bulk. Your prey.",
+    "options": [
+        [
+            "Shoot",
+            "shoot",
+            "Shoot the prey"
+        ],
+        [
+            "Death by beast",
+            "forward",
+            "Go forward"
+        ],
+        [
+            "Left",
+            "left",
+            "Go left"
+        ],
+        [
+            "Right before shoot",
+            "right",
+            "Go right"
+        ]
+    ]
+}

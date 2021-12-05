@@ -1,0 +1,11 @@
+{
+    "title": "Rest 1",
+    "content": "Time passes.\n \nYou slump down. Just a little rest, a voice lies, but unfortunately you're too tired to argue with it.",
+    "options": [
+        [
+            "Tight Crawl 4",
+            "forward",
+            "Go forward"
+        ]
+    ]
+}

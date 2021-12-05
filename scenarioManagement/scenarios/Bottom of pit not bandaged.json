@@ -1,0 +1,21 @@
+{
+    "title": "Bottom of pit not bandaged",
+    "content": "This is the bottom of a wide pit. The walls are entirely unclimbable, of course. The floor is rippled and uneven, rising to sharp blades of stone near the edge. Mud and pebbles are strewn everywhere, but there's no standing water, so -- yes -- a narrow crawl leads down in the far corner.\n \nA bat or two flutters overhead.\n \nA twisted shape lies nearby.\n \nBlood continues to trickle down your fingers.\n \nMore bats gather.",
+    "options": [
+        [
+            "Climb up left",
+            "climb",
+            "Climb up"
+        ],
+        [
+            "Twisted Shape",
+            "examine",
+            "Examine the twisted shape"
+        ],
+        [
+            "Tight Crawl 1",
+            "down",
+            "Go down into the corner"
+        ]
+    ]
+}

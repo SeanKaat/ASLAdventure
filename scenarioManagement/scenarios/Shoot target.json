@@ -1,0 +1,11 @@
+{
+    "title": "Shoot target",
+    "content": "What do you want to shoot at?",
+    "options": [
+        [
+            "Look at Prey",
+            "look",
+            "Look around"
+        ]
+    ]
+}

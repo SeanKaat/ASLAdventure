@@ -1,0 +1,16 @@
+{
+    "title": "Rising path",
+    "content": "You take a hesitant step sideways. And another, sliding past the beast, trying to be a thin part of the canyon wall...\n \nThe Wumpus, lashing out at bats, doesn't seem to notice.\n \nRising Path\nYou are partway up the canyon wall, on a narrow path that climbs from ledge to ledge. The cavern is vast around you, water-hewn strata stretching upward to the stone forest of the roof; and somewhere above you, a crack of daylight sets it all glimmering...\n \nDown on the canyon floor, the Wumpus thrashes within a rustling black cloud. Dark growls rise to you.",
+    "options": [
+        [
+            "Freedom",
+            "climb",
+            "Climb up"
+        ],
+        [
+            "Death by outrageous Wumpus",
+            "down",
+            "Go back down"
+        ]
+    ]
+}

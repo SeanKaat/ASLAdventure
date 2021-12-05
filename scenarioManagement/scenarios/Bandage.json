@@ -1,0 +1,11 @@
+{
+    "title": "Bandage",
+    "content": "You quickly bind up your arm with the cloth. It stanches the bleeding, at least. You only hope that you can get to better care before infection sets in.",
+    "options": [
+        [
+            "Bottom of pit bandaged",
+            "look",
+            "Look around"
+        ]
+    ]
+}

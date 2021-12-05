@@ -1,0 +1,26 @@
+{
+    "title": "Narrow Ledge Observation 1",
+    "content": "You sit at the edge, turn, catch, and hang full-length against the wall. There ought to be a foothold...\n \nWell, perhaps not. You slam into the ledge and lean into stone, face and belly, trying not to slide any farther.\n \n<b>Narrow Ledge</b>\nAfter a moment you retake your balance, and turn. This ledge is barely two feet wide at most. You try not to feel like it's angled slightly outward. The pit stretches above and below you; but you can see no way to climb from here, either way.\n \nA gentle arc hangs across the pit, well above your head.",
+    "options": [
+        [
+            "Climb up right",
+            "climb",
+            "Climb up"
+        ],
+        [
+            "Climb down",
+            "down",
+            "Climb down"
+        ],
+        [
+            "Jump",
+            "jump",
+            "Jump"
+        ],
+        [
+            "Shoot the rope 1",
+            "shoot",
+            "Shoot the rope"
+        ]
+    ]
+}

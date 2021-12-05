@@ -1,0 +1,21 @@
+{
+    "title": "Tiny Cavern 2",
+    "content": "<b>Tiny Cavern</b>\nThis is a tiny roundish cavern which is mazed with fine cracks. The uncertain light seems a bit brighter, and lacy, twisted pillars rise from floor to roof. A tunnel heads right, a low crack heads up, and a crack runs down.\n\nMore bats. They don't seem to have noticed you yet.",
+    "options": [
+        [
+            "Smallish Cave",
+            "right",
+            "Go right"
+        ],
+        [
+            "Dull Room",
+            "up",
+            "Go up"
+        ],
+        [
+            "Roundish Pit",
+            "down",
+            "Go down"
+        ]
+    ]
+}

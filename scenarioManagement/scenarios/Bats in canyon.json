@@ -1,0 +1,21 @@
+{
+    "title": "Bats in canyon",
+    "content": "Bats squat all around the spill of clotting blood. They do not seem to be paying you much heed; they are intent on their feast.\n \nAnother bats flutters down from above, and pushes into the mass.",
+    "options": [
+        [
+            "Base of canyon observation",
+            "look",
+            "Look around"
+        ],
+        [
+            "Canyon Wall",
+            "go",
+            "Go in the direction of the blood trail"
+        ],
+        [
+            "Bandage removal",
+            "remove",
+            "Remove bandage"
+        ]
+    ]
+}

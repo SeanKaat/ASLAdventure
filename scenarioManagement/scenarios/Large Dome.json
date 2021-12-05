@@ -1,0 +1,21 @@
+{
+    "title": "Large Dome",
+    "content": "<b>Large Dome</b>\nThis is a large, oblong dome. A thick layer of mud lies underfoot. The uncertain light seems a bit dimmer. A steep crack climbs up, a crawl leads ahead, and a wide passage heads left.\n \nA scrap of shadow flickers across a wall.",
+    "options": [
+        [
+            "Roundish Pit",
+            "up",
+            "Go up"
+        ],
+        [
+            "Largish Cave",
+            "ahead",
+            "Go ahead"
+        ],
+        [
+            "Smallish Cave",
+            "left",
+            "Go left"
+        ]
+    ]
+}

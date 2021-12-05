@@ -1,0 +1,16 @@
+{
+    "title": "Death by crossbow",
+    "content": "The Wumpus does not hesitate. <i>Tunk</i>.\n \nSo this is what it's like.\n \n \n<b>    *** You have died ***</b>\n\t\nRESTART?",
+    "options": [
+        [
+            "start",
+            "yes",
+            "Yes"
+        ],
+        [
+            "Death by crossbow",
+            "no",
+            "No"
+        ]
+    ]
+}

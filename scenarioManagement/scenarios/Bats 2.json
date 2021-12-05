@@ -1,0 +1,26 @@
+{
+    "title": "Bats 2",
+    "content": "The bats cluster on the ground near the low tunnel leading down. They seem to be licking at the stone.",
+    "options": [
+        [
+            "Large Pit",
+            "up",
+            "Go up"
+        ],
+        [
+            "Cramped Room",
+            "down",
+            "Go down"
+        ],
+        [
+            "Largish Dome",
+            "ahead",
+            "Go ahead"
+        ],
+        [
+            "Bats 2",
+            "examine",
+            "Examine bats"
+        ]
+    ]
+}

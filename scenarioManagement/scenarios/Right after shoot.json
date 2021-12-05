@@ -1,0 +1,16 @@
+{
+    "title": "Right after shoot",
+    "content": "<b>Edge Of Pit</b>\nThe passage drops off suddenly, ending in a deep pit. The sides are steep but not vertical; you might be able to scramble down, but you make no bets about climbing back up.",
+    "options": [
+        [
+            "Branching cave observation after shoot",
+            "where",
+            "Go back to where you were"
+        ],
+        [
+            "Narrow Ledge Observation 1",
+            "down",
+            "Go down"
+        ]
+    ]
+}

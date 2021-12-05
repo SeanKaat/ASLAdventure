@@ -1,0 +1,7 @@
+{
+    "title": "Introduction",
+    "content": "This is the content of the scenario",
+    "options": [
+        ["start", "start", "<b>Start</b>"]
+    ]
+}

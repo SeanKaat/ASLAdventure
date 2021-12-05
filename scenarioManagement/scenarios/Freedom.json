@@ -1,0 +1,16 @@
+{
+    "title": "Freedom",
+    "content": "You pick your way... slowly... up the canyon wall. Everything is heavy; you're glad you have nothing more to carry.\n \nSomewhere below, a hissing scream is cut off, abruptly. You round a pale fold of limestone, and you are blinded by daylight.\n \n \n \n    *** It's over ***\n\t\n\t\nRESTART?",
+    "options": [
+        [
+            "start",
+            "yes",
+            "Yes"
+        ],
+        [
+            "Freedom",
+            "no",
+            "No"
+        ]
+    ]
+}
