@@ -10,6 +10,7 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         backgroundColor: 'white',
         alignItems: 'center',
+        display: "flex",
     },
     logo: {
         alignItems: 'center',
@@ -50,7 +51,6 @@ const styles = StyleSheet.create({
 const Scenario = ({ scenario, setCurrentScenario }: any) => {
     console.log("Amount of option for current scenario: " + scenario.options.length);
     const t = 'look'
-    const img: any = GifImages[t];
 
     return (
         <View style={styles.base}>
@@ -61,13 +61,16 @@ const Scenario = ({ scenario, setCurrentScenario }: any) => {
                 style={styles.logo}
                 source={require('./ASLAdventureLogo.png')}
             />
-            <Image source={img} style={styles.gifStyle} />
+            
             <Text style={styles.mainText}>{scenario.content}</Text>
             {
                 scenario.options.map((option: any, ind: number) => {
+                    // @ts-ignore
+                    const gif = GifImages[option[1]];
+
                     return (
                         <>
-                            
+                            <Image source={gif} style={styles.gifStyle} />
                             <TouchableOpacity
                                 onPress={() => setCurrentScenario(ScenarioManager.getScenario(option[0]))} style={styles.button}
                                 key={ind}>
