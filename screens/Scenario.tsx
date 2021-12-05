@@ -81,11 +81,11 @@ const Scenario = ({ scenario, setCurrentScenario }: any) => {
                         const gif = GifImages[option[1]];
 
                         return (
-                            <View style={styles.option}>
+                            <View style={styles.option} key={ind}>
                                 <Image source={gif} style={styles.gifStyle} />
                                 <TouchableOpacity
                                     onPress={() => setCurrentScenario(ScenarioManager.getScenario(option[0]))} style={styles.button}
-                                    key={ind}>
+                                    >
                                     <Text style={styles.buttonText}>{option[2]}</Text>
                                 </TouchableOpacity>
                             </View>
