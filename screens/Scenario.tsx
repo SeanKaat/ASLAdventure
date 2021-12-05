@@ -2,15 +2,19 @@ import React from 'react';
 import { ScrollView, View, StatusBar, Text, Button, StyleSheet, Image, TouchableOpacity, SafeAreaView, Modal } from 'react-native';
 import { ScenarioManager } from '../scenarioManagement/Scenarios';
 import GifImages from '../scenarioManagement/gifList';
-// import { StatusBar } from 'expo-status-bar';
 
 
 const styles = StyleSheet.create({
-    base: {
+    container: {
         flex: 1,
-        backgroundColor: 'white',
+        paddingTop: StatusBar.currentHeight,
+    },
+    scrollViewStyle: {
+        // flex: 1,
         alignItems: 'center',
-
+        justifyContent: 'center',
+        backgroundColor: 'white',
+        marginHorizontal: 20,
     },
     logo: {
         alignItems: 'center',
@@ -64,14 +68,6 @@ const styles = StyleSheet.create({
         height: 100,
         width: 100,
     },
-    container: {
-        flex: 1,
-        paddingTop: StatusBar.currentHeight,
-    },
-    scrollView: {
-        backgroundColor: 'transparent',
-        marginHorizontal: 20
-    },
     signButton: {
         alignSelf: 'center',
         height: 100,
@@ -83,9 +79,8 @@ const Scenario = ({ scenario, setCurrentScenario }: any) => {
     console.log("Amount of option for current scenario: " + scenario.options.length);
 
     return (
-        // <SafeAreaView style={styles.container}>
-        // <ScrollView contentContainerStyle={styles.base}>
-        <View style={styles.base}>
+        <SafeAreaView style={styles.container}>
+        <ScrollView contentContainerStyle={styles.scrollViewStyle}>
             <TouchableOpacity onPress={() => setCurrentScenario(null)} style={styles.backButton}>
                 <Text>Home</Text>
             </TouchableOpacity>
@@ -93,7 +88,7 @@ const Scenario = ({ scenario, setCurrentScenario }: any) => {
                 style={styles.logo}
                 source={require('./ASLAdventureLogo.png')}
             />
-            <Text style={styles.mainText}>{scenario.content + '\n'}</Text>
+            <Text style={styles.mainText}>{scenario.content}</Text>
             <View style={styles.buttonHolder}>
                 {
                     scenario.options.map((option: any, ind: number) => {
@@ -123,13 +118,12 @@ const Scenario = ({ scenario, setCurrentScenario }: any) => {
                     })
                 }
             </View>
-        {/* </ScrollView> */}
+        </ScrollView>
         <Image
             source={require('./signButton2.png')}
             style={styles.signButton}
         />
-        {/* </SafeAreaView> */}
-        </View>
+        </SafeAreaView>
     );
 }
 
