@@ -1,7 +1,8 @@
 import React from 'react';
-import { View, Text, Button, StyleSheet, Image, TouchableOpacity } from 'react-native';
+import { ScrollView, View, StatusBar, Text, Button, StyleSheet, Image, TouchableOpacity, SafeAreaView, Modal } from 'react-native';
 import { ScenarioManager } from '../scenarioManagement/Scenarios';
 import GifImages from '../scenarioManagement/gifList';
+// import { StatusBar } from 'expo-status-bar';
 
 
 const styles = StyleSheet.create({
@@ -22,7 +23,7 @@ const styles = StyleSheet.create({
     buttonHolder: {
         display: "flex",
         flexDirection: "column",
-        width: "100%",
+        // width: "90%",
         padding: 10,
     },
     option: {
@@ -37,7 +38,11 @@ const styles = StyleSheet.create({
     },
     buttonText: {
         color: "white",
-        fontWeight: "bold"
+    },
+    buttonActionText: {
+        color: "white",
+        fontWeight: 'bold',
+        fontStyle: 'italic'
     },
     backButton: {
         position: 'absolute',
@@ -52,11 +57,25 @@ const styles = StyleSheet.create({
     mainText: {
         padding: 10,
         marginTop: 150,
-        textAlign: "center"
+        textAlign: "left",
+        fontSize: 16
     },
     gifStyle: {
         height: 100,
         width: 100,
+    },
+    container: {
+        flex: 1,
+        paddingTop: StatusBar.currentHeight,
+    },
+    scrollView: {
+        backgroundColor: 'transparent',
+        marginHorizontal: 20
+    },
+    signButton: {
+        alignSelf: 'center',
+        height: 100,
+        width: 160,
     }
 });
 
@@ -64,6 +83,8 @@ const Scenario = ({ scenario, setCurrentScenario }: any) => {
     console.log("Amount of option for current scenario: " + scenario.options.length);
 
     return (
+        // <SafeAreaView style={styles.container}>
+        // <ScrollView contentContainerStyle={styles.base}>
         <View style={styles.base}>
             <TouchableOpacity onPress={() => setCurrentScenario(null)} style={styles.backButton}>
                 <Text>Home</Text>
@@ -72,27 +93,42 @@ const Scenario = ({ scenario, setCurrentScenario }: any) => {
                 style={styles.logo}
                 source={require('./ASLAdventureLogo.png')}
             />
-
-            <Text style={styles.mainText}>{scenario.content}</Text>
+            <Text style={styles.mainText}>{scenario.content + '\n'}</Text>
             <View style={styles.buttonHolder}>
                 {
                     scenario.options.map((option: any, ind: number) => {
                         // @ts-ignore
                         const gif = GifImages[option[1]];
-
+                        const actionPos = option[2].toLowerCase().search(option[1]);
+                        const firstHalf = option[2].substring(0, actionPos);
+                        const actionInOption = option[2].substring(actionPos, actionPos+option[1].length);
+                        const secHalf = option[2].substring(actionPos+option[1].length, option[2].length);
                         return (
                             <View style={styles.option} key={ind}>
                                 <Image source={gif} style={styles.gifStyle} />
                                 <TouchableOpacity
-                                    onPress={() => setCurrentScenario(ScenarioManager.getScenario(option[0]))} style={styles.button}
-                                    >
-                                    <Text style={styles.buttonText}>{option[2]}</Text>
+                                    onPress={() => setCurrentScenario(ScenarioManager.getScenario(option[0]))}
+                                    style={styles.button}
+                                >
+                                    <Text style={styles.buttonText}>
+                                        {firstHalf}
+                                        <Text style={styles.buttonActionText}>
+                                            {actionInOption}
+                                        </Text>
+                                        {secHalf}
+                                    </Text>
                                 </TouchableOpacity>
                             </View>
                         )
                     })
                 }
             </View>
+        {/* </ScrollView> */}
+        <Image
+            source={require('./signButton2.png')}
+            style={styles.signButton}
+        />
+        {/* </SafeAreaView> */}
         </View>
     );
 }

@@ -1,7 +1,8 @@
 {
     "title": "Introduction",
-    "content": "This is the content of the scenario",
+    "content": "This is an introduction.\n\n Start the game?",
     "options": [
-        ["start", "start", "<b>Start</b>"]
+        ["start", "yes", "Yes"],
+        ["Take me home haha", "no", "No"]
     ]
 }
